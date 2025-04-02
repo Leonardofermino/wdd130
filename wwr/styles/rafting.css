@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+h1 {
+    background-color: var(--accent1-color);
+}
+
 .hero {
     position : relative;
     background-image: url(../images/hero.png); 
@@ -31,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent1-color); /* Light text for contrast */
     text-align: center;
     padding: 0;
+    align-content: baseline;
 }
 
 .header {
