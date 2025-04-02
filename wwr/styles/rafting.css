@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #1c6e8c;
+    --secondary-color: #274156;
+    --accent1-color: #fbfcff;
+    --accent2-color: #605856;
+
+    --heading-font: 'Roboto', sans-serif;
+    --text-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--text-font);
+    font-weight: 400; /* Default text weight */
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    font-weight: 100; /* Light weight for headings */
+    color: var(--primary-color);
+}
+
+.hero {
+    position : relative;
+    background-image: url(../images/hero.png); 
+    background-size: cover; 
+    background-position: center;
+    min-height: 400px;
+    opacity: 0.9;
+    color: var(--accent1-color); /* Light text for contrast */
+    text-align: center;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+a {
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent2-color);
+}
+
+.sociallinks {
+    position: relative;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
